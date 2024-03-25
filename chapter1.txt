@@ -1,0 +1,48 @@
+//Git bash commands
+
+create folder
+$ mkdir newFolderName
+
+go into folder
+$ cd FolderName
+
+to know list of files and folders
+$ ls 
+
+to know list of all files (including hidden files like git repository like (.git))
+$ ls -a
+
+create file
+$ touch fileName.txt 
+
+open file
+$ start fileName.txt 
+
+open file in vscode 
+$ code fileName.txt in vscode
+
+delete file 
+$ rm fileName.txt
+
+to remove all files nside a folder
+$ rm *
+
+to know path of current folder location 
+$ pwd 
+
+to remove folder(folderName) 
+$ rm -r folderName
+
+to remove all folders in a folder
+$ rm -r *
+
+//git commands
+
+to create a git (git initialing in a folder)
+$ git init 
+
+to see whats in staging area
+$ git status
+
+to add into staging area 
+$ git add filename
