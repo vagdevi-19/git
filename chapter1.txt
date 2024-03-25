@@ -44,5 +44,18 @@ $ git init
 to see whats in staging area
 $ git status
 
-to add into staging area 
+to add a file into staging area 
 $ git add filename
+
+to add all files present in current directory/floder into staging area
+$ git add .
+
+to config git (set your account)
+$ git config --global user.name "youremail.com"
+$ git config --global user.name "yourname"
+
+to commit in version control
+$ git commit -m "some message"
+
+to see what commits we have done
+$ git log
