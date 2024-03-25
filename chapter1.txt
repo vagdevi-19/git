@@ -59,3 +59,6 @@ $ git commit -m "some message"
 
 to see what commits we have done
 $ git log
+
+to roll back 
+$ git checkout 
