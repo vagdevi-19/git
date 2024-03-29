@@ -1,0 +1,26 @@
+[1mdiff --git a/chapter1.txt b/chapter1.txt[m
+[1mindex 70f3a73..43a3897 100644[m
+[1m--- a/chapter1.txt[m
+[1m+++ b/chapter1.txt[m
+[36m@@ -1,5 +1,8 @@[m
+ //Git bash commands[m
+ [m
+[32m+[m[32mto clear git[m
+[32m+[m[32m$ clear[m[41m [m
+[32m+[m
+ create folder[m
+ $ mkdir newFolderName[m
+ [m
+[36m@@ -60,5 +63,8 @@[m [m$ git commit -m "some message"[m
+ to see what commits we have done[m
+ $ git log[m
+ [m
+[31m-to roll back [m
+[31m-$ git checkout [m
+\ No newline at end of file[m
+[32m+[m[32mto roll back the file from git repository[m
+[32m+[m[32m$ git checkout filename.txt[m
+[32m+[m
+[32m+[m[32mto see the difference current version of file and our last save point in our git repository[m[41m [m
+[32m+[m[32m$ git diff filename.txt[m[41m [m
+\ No newline at end of file[m

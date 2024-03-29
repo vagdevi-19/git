@@ -1,5 +1,8 @@
 //Git bash commands
 
+to clear git
+$ clear 
+
 create folder
 $ mkdir newFolderName
 
@@ -20,11 +23,13 @@ $ start fileName.txt
 
 open file in vscode 
 $ code fileName.txt in vscode
+or
+$ code fileName.txt
 
 delete file 
 $ rm fileName.txt
 
-to remove all files nside a folder
+to remove all files inside a folder
 $ rm *
 
 to know path of current folder location 
@@ -50,6 +55,9 @@ $ git add filename
 to add all files present in current directory/floder into staging area
 $ git add .
 
+to remove all files added into staging area
+$ git rm --cached -r .
+
 to config git (set your account)
 $ git config --global user.name "youremail.com"
 $ git config --global user.name "yourname"
@@ -60,5 +68,30 @@ $ git commit -m "some message"
 to see what commits we have done
 $ git log
 
-to roll back 
-$ git checkout 
+to roll back the file from git repository
+$ git checkout filename.txt
+
+to see the difference current version of file and our last save point in our git repository 
+$ git diff filename.txt 
+
+
+// creating a Remote Repository using Github
+
+create remote (create a repository in github and copy the url link)
+$ git remote add <name> <url>
+$ git remote add origin https://github.com/vagdevi-19/git.git
+
+create branch 
+$ git branch -M main 
+
+push from local repository to remote repository 
+$ git push -u <remoteName> <branch anme>
+$ git push -u origin main
+(if asked, complete the authentication)
+
+create a hidden file(.gitignore)
+$ touch .gitignore
+
+//git to local repository (copy)
+$ git clone url
+the url id from github  
