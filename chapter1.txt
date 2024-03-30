@@ -3,6 +3,11 @@
 to clear git
 $ clear 
 
+to end git bash
+$ :q!
+or 
+q
+
 create folder
 $ mkdir newFolderName
 
@@ -94,4 +99,18 @@ $ touch .gitignore
 
 //git to local repository (copy)
 $ git clone url
-the url id from github  
+//the url id from github  
+// follow the steps given there
+
+
+//creating new branch
+$ git branch <brachname>
+
+//to know all branches
+$ git branch
+
+//to go into other branch
+$ git checkout <branchname>
+
+//to merge with main branch
+$ git merge <branchname>
